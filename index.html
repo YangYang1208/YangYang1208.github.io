@@ -1,432 +1,679 @@
-
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <title>Masonry Portfolio &#8211; molli</title>
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="molli &raquo; Feed" href="https://demo.farost.net/molli/feed/" />
-<link rel="alternate" type="application/rss+xml" title="molli &raquo; Comments Feed" href="https://demo.farost.net/molli/comments/feed/" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/demo.farost.net\/molli\/wp-includes\/js\/wp-emoji-release.min.js"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://demo.farost.net/molli/wp-includes/css/dist/block-library/style.min.css'  media='all' />
-<link rel='stylesheet' id='wc-block-style-css'  href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/blocks/style.css'  media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='https://demo.farost.net/molli/wp-content/plugins/contact-form-7/includes/css/styles.css'  media='all' />
-<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/css/settings.css'  media='all' />
-<style id='rs-plugin-settings-inline-css' type='text/css'>
-#rs-demo-id {}
-</style>
-<link rel='stylesheet' id='cms-plugin-stylesheet-css'  href='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/css/cms-style.css'  media='all' />
-<link property="stylesheet" rel='stylesheet' id='owl-carousel-css'  href='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/css/owl.carousel.min.css'  media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'  media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'  media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce.css'  media='all' />
-<style id='woocommerce-inline-inline-css' type='text/css'>
-.woocommerce form .form-row .required { visibility: visible; }
-</style>
-<link rel='stylesheet' id='bootstrap-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/bootstrap.min.css'  media='all' />
-<link rel='stylesheet' id='font-awesome-css'  href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css'  media='all' />
-<link rel='stylesheet' id='font-material-icon-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/material-design-iconic-font.min.css'  media='all' />
-<link rel='stylesheet' id='magnific-popup-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/magnific-popup.css'  media='all' />
-<link rel='stylesheet' id='YouTubePopUp-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/YouTubePopUp.css'  media='all' />
-<link rel='stylesheet' id='slick-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/slick.css'  media='all' />
-<link rel='stylesheet' id='multiscroll-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/jquery.multiscroll.css'  media='all' />
-<link rel='stylesheet' id='slick-theme-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/slick-theme.css'  media='all' />
-<link rel='stylesheet' id='molli-theme-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/theme.css'  media='all' />
-<style id='molli-theme-inline-css' type='text/css'>
-        @media screen and (max-width: 991px) {
-                    }
-                @media screen and (min-width: 992px) {
-                    }
+    <title>Yang Yang &#8211; Portfolio</title>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel="alternate" type="application/rss+xml" title="molli &raquo; Feed"
+        href="https://demo.farost.net/molli/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="molli &raquo; Comments Feed"
+        href="https://demo.farost.net/molli/comments/feed/" />
+    <script type="text/javascript">
+        window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/demo.farost.net\/molli\/wp-includes\/js\/wp-emoji-release.min.js" } };
+        !function (a, b, c) { function d(a, b) { var c = String.fromCharCode; l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0); var d = k.toDataURL(); l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0); var e = k.toDataURL(); return d === e } function e(a) { var b; if (!l || !l.fillText) return !1; switch (l.textBaseline = "top", l.font = "600 32px Arial", a) { case "flag": return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b); case "emoji": return b = d([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340]), !b }return !1 } function f(a) { var c = b.createElement("script"); c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c) } var g, h, i, j, k = b.createElement("canvas"), l = k.getContext && k.getContext("2d"); for (j = Array("flag", "emoji"), c.supports = { everything: !0, everythingExceptFlag: !0 }, i = 0; i < j.length; i++)c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]); c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function () { c.DOMReady = !0 }, c.supports.everything || (h = function () { c.readyCallback() }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function () { "complete" === b.readyState && c.readyCallback() })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji))) }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css'
+        href='https://demo.farost.net/molli/wp-includes/css/dist/block-library/style.min.css' media='all' />
+    <link rel='stylesheet' id='wc-block-style-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/blocks/style.css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/contact-form-7/includes/css/styles.css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/css/settings.css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+    <link rel='stylesheet' id='cms-plugin-stylesheet-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/css/cms-style.css' media='all' />
+    <link property="stylesheet" rel='stylesheet' id='owl-carousel-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/css/owl.carousel.min.css' media='all' />
+    <link rel='stylesheet' id='woocommerce-layout-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css'
+        media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css'
+        media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/css/woocommerce.css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='bootstrap-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/bootstrap.min.css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css'
+        media='all' />
+    <link rel='stylesheet' id='font-material-icon-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/material-design-iconic-font.min.css'
+        media='all' />
+    <link rel='stylesheet' id='magnific-popup-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/magnific-popup.css' media='all' />
+    <link rel='stylesheet' id='YouTubePopUp-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/YouTubePopUp.css' media='all' />
+    <link rel='stylesheet' id='slick-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/slick.css' media='all' />
+    <link rel='stylesheet' id='multiscroll-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/jquery.multiscroll.css' media='all' />
+    <link rel='stylesheet' id='slick-theme-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/slick-theme.css' media='all' />
+    <link rel='stylesheet' id='molli-theme-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/theme.css' media='all' />
+    <style id='molli-theme-inline-css' type='text/css'>
+        @media screen and (max-width: 991px) {}
 
-                @media screen and (max-width: 991px) {
+        @media screen and (min-width: 992px) {}
+
+        @media screen and (max-width: 991px) {
             body #pagetitle {
-                    padding-top:135px;
-                    padding-bottom:135px;
-                }        }
-        #pagetitle .page-title-inner { text-align: left; }        @media screen and (min-width: 992px) {
-                    }
-        
-</style>
-<link rel='stylesheet' id='molli-menu-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/menu.css'  media='all' />
-<link rel='stylesheet' id='molli-style-css'  href='https://demo.farost.net/molli/wp-content/themes/molli/style.css'  media='all' />
-<link rel='stylesheet' id='molli-google-fonts-css'  href='https://fonts.googleapis.com/css?family=Inconsolata%3A300%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7COswald%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext&#038;ver=5.2.3'  media='all' />
-<link rel='stylesheet' id='newsletter-css'  href='https://demo.farost.net/molli/wp-content/plugins/newsletter/style.css'  media='all' />
-<!--[if lt IE 9]>
+                padding-top: 135px;
+                padding-bottom: 135px;
+            }
+        }
+
+        #pagetitle .page-title-inner {
+            text-align: left;
+        }
+
+        @media screen and (min-width: 992px) {}
+    </style>
+    <link rel='stylesheet' id='molli-menu-css'
+        href='https://demo.farost.net/molli/wp-content/themes/molli/assets/css/menu.css' media='all' />
+    <link rel='stylesheet' id='molli-style-css' href='https://demo.farost.net/molli/wp-content/themes/molli/style.css'
+        media='all' />
+    <link rel='stylesheet' id='molli-google-fonts-css'
+        href='https://fonts.googleapis.com/css?family=Inconsolata%3A300%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%7COswald%3A300%2C400%2C500%2C600%2C700&#038;subset=latin%2Clatin-ext&#038;ver=5.2.3'
+        media='all' />
+    <link rel='stylesheet' id='newsletter-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/newsletter/style.css' media='all' />
+    <!--[if lt IE 9]>
 <link rel='stylesheet' id='vc_lte_ie9-css'  href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css'  media='screen' />
 <![endif]-->
-<link rel='stylesheet' id='js_composer_front-css'  href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/css/js_composer.min.css'  media='all' />
-<script  src='https://demo.farost.net/molli/wp-includes/js/jquery/jquery.js'></script>
-<script  src='https://demo.farost.net/molli/wp-includes/js/jquery/jquery-migrate.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/molli\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/molli\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/demo.farost.net\/molli\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+    <link rel='stylesheet' id='js_composer_front-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/css/js_composer.min.css'
+        media='all' />
+    <script src='https://demo.farost.net/molli/wp-includes/js/jquery/jquery.js'></script>
+    <script src='https://demo.farost.net/molli/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = { "ajax_url": "\/molli\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/molli\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/demo.farost.net\/molli\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js'></script>
-<link rel='https://api.w.org/' href='https://demo.farost.net/molli/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.farost.net/molli/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://demo.farost.net/molli/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.2.3" />
-<meta name="generator" content="WooCommerce 3.6.5" />
-<link rel="canonical" href="https://demo.farost.net/molli/masonry-portfolio-2/" />
-<link rel='shortlink' href='https://demo.farost.net/molli/?p=1323' />
-<link rel="alternate" type="application/json+oembed" href="https://demo.farost.net/molli/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.farost.net%2Fmolli%2Fmasonry-portfolio-2%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://demo.farost.net/molli/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.farost.net%2Fmolli%2Fmasonry-portfolio-2%2F&#038;format=xml" />
-	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
-<meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-<script >function setREVStartSize(e){									
-						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
-							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
-						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
-					};</script>
-<style type="text/css" title="dynamic-css" class="options-output">a{color:inherit;}a:hover{color:inherit;}a:active{color:inherit;}</style><style id="cms-page-dynamic-css" data-type="redux-output-css">#content{padding-bottom:0;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+    </script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js'></script>
+    <link rel='https://api.w.org/' href='https://demo.farost.net/molli/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://demo.farost.net/molli/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://demo.farost.net/molli/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 5.2.3" />
+    <meta name="generator" content="WooCommerce 3.6.5" />
+    <link rel="canonical" href="https://demo.farost.net/molli/masonry-portfolio-2/" />
+    <link rel='shortlink' href='https://demo.farost.net/molli/?p=1323' />
+    <link rel="alternate" type="application/json+oembed"
+        href="https://demo.farost.net/molli/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.farost.net%2Fmolli%2Fmasonry-portfolio-2%2F" />
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://demo.farost.net/molli/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdemo.farost.net%2Fmolli%2Fmasonry-portfolio-2%2F&#038;format=xml" />
+    <noscript>
+        <style>
+            .woocommerce-product-gallery {
+                opacity: 1 !important;
+            }
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+    <meta name="generator"
+        content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <script>function setREVStartSize(e) {
+            try {
+            e.c = jQuery(e.c); var i = jQuery(window).width(), t = 9999, r = 0, n = 0, l = 0, f = 0, s = 0, h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function (e, f) { f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e) }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) { var u = (e.c.width(), jQuery(window).height()); if (void 0 != e.fullScreenOffsetContainer) { var c = e.fullScreenOffsetContainer.split(","); if (c) jQuery.each(c, function (e, i) { u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0)) } f = u } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight); e.c.closest(".rev_slider_wrapper").css({ height: f })
+            } catch (d) { console.log("Failure at Presize of Slider:" + d) }
+        };</script>
+    <style type="text/css" title="dynamic-css" class="options-output">
+        a {
+            color: inherit;
+        }
 
-<body class="page-template-default page page-id-1323 woocommerce-no-js visual-composer wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
-<div id="page" class="site">
-            <div id="cms-loadding" class="cms-loader">
+        a:hover {
+            color: inherit;
+        }
+
+        a:active {
+            color: inherit;
+        }
+    </style>
+    <style id="cms-page-dynamic-css" data-type="redux-output-css">
+        #content {
+            padding-bottom: 0;
+        }
+    </style><noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body
+    class="page-template-default page page-id-1323 woocommerce-no-js visual-composer wpb-js-composer js-comp-ver-6.0.3 vc_responsive">
+    <div id="page" class="site">
+        <div id="cms-loadding" class="cms-loader">
             <div class="loading-center-absolute">
                 <div class="mouse-loader"></div>
             </div>
         </div>
-    <header id="masthead" class="site-header">
-    <div id="site-header-wrap" class="header-layout3 header-transparent fixed-height is-sticky">
-        <div id="headroom" class="site-header-main">
-            <div class="container">
-                <div class="row">
-                    <div class="header-left">
-                        <div class="site-branding clearfix">
-                            <a class="logo-dark" href="https://demo.farost.net/molli/" title="molli" rel="home"><img src="https://demo.farost.net/molli/wp-content/themes/molli/assets/images/logo-dark.png" alt="molli"/></a><a class="logo-mobile" href="https://demo.farost.net/molli/" title="molli" rel="home"><img src="https://demo.farost.net/molli/wp-content/themes/molli/assets/images/logo-dark.png" alt="molli"/></a>                        </div>
-                    </div>
-                    <div class="header-right">
-                        <div class="icon-popup-menu icon-wrap">
-                    <span data-toggle="modal" data-target="#modalMenu">
-                        <i class="lines-button">
-                            <i class="lines"></i>
-                        </i>
-                    </span>
+        <header id="masthead" class="site-header">
+            <div id="site-header-wrap" class="header-layout3 header-transparent fixed-height is-sticky">
+                <div id="headroom" class="site-header-main">
+                    <div class="container">
+                        <div class="row">
+                            <div class="header-left">
+                                <div class="site-branding clearfix">
+                                    <a class="logo-dark" href="https://demo.farost.net/molli/" title="Yang"
+                                        rel="home"><img
+                                            src="assets/img/logo_light.png"
+                                            alt="YANG" /></a> </div>
+                            </div>
+                            <div class="header-right">
+                                <div class="icon-popup-menu icon-wrap">
+                                    <span data-toggle="modal" data-target="#modalMenu">
+                                        <i class="lines-button">
+                                            <i class="lines"></i>
+                                        </i>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</header>
-<div class="modal modal-popup-menu fade" id="modalMenu">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="cms-close-popup-menu" data-toggle="modal" data-target="#modalMenu">
-                <i class="zmdi zmdi-close"></i>
-            </div>
-            <div class="modal-content-inner">
-                <ul id="menu-popup-menu" class="popup-menu clearfix"><li id="menu-item-161" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-161"><a href="https://demo.farost.net/molli/">Home</a></li>
-<li id="menu-item-639" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a href="https://demo.farost.net/molli/portfolio-standard/">Portfolio</a></li>
-<li id="menu-item-640" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a href="https://demo.farost.net/molli/blog-standard/">Blog</a></li>
-<li id="menu-item-641" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a href="https://demo.farost.net/molli/our-shop/">Shop</a></li>
-</ul>                <div class="modal-contact">
-                                            <div class="popup-menu-contact-email">
-                            <span>Email Us: </span>
-                            <a href="mailto:Molli@farost.com">Molli@farost.com</a>
-                        </div>
-                                            <div class="popup-menu-contact-phone">
-                            <span>Call Us: </span>
-                            <a href="tel:00201066165701">002 01066165701</a>
-                        </div>
-                                        <div class="cms-social-media">
-                                        <a title="Facebook" href="#"><i class="zmdi zmdi-facebook"></i></a>        <a title="Instagram" href="#"><i class="zmdi zmdi-instagram"></i></a>        <a title="Twitter" href="#"><i class="zmdi zmdi-twitter"></i></a>                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>    <div id="content" class="site-content">
-    	<div class="content-inner" >
-    <div class="container content-container">
-        <div class="row content-row">
-            <div id="primary"  class="content-area content-full-width col-12">
-                <main id="main" class="site-main">
-                    
-<article id="post-1323" class="post-1323 page type-page status-publish hentry">
-    <div class="entry-content clearfix">
-        <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner"><div class="wpb_wrapper"><div id="cms-portfolio-grid" class="cms-grid cms-portfolio-grid grid-masonry " >
+        </header>
+        <div class="modal modal-popup-menu fade" id="modalMenu">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="cms-close-popup-menu" data-toggle="modal" data-target="#modalMenu">
+                        <i class="zmdi zmdi-close"></i>
+                    </div>
+                    <div class="modal-content-inner">
+                        <ul id="menu-popup-menu" class="popup-menu clearfix">
+                            <li id="menu-item-161"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-161">
+                                <a href="https://demo.farost.net/molli/">Home</a></li>
+                            <li id="menu-item-639"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-639"><a
+                                    href="https://demo.farost.net/molli/portfolio-standard/">Portfolio</a></li>
+                            <li id="menu-item-640"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-640"><a
+                                    href="https://demo.farost.net/molli/blog-standard/">Blog</a></li>
+                            <li id="menu-item-641"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-641"><a
+                                    href="https://demo.farost.net/molli/our-shop/">Shop</a>< /li>
+                        </ul>
+                        <div class="modal-contact">
+                            <div class="popup-menu-contact-email">
+                                <span>Email: </span>
+                                <a href="mailto:yy848@cornell.edu">yy848@cornell.edu</a>
+                            </div>
 
-        <div class="cms-grid-inner cms-grid-masonry row animation-time" data-gutter="0">
-                                <div class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/packaging-design/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5.jpg" class="attachment-full size-full wp-post-image" alt="masonry5" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry5-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/packaging-design/">Packaging Design</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/trademark/" rel="tag">Trademark</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
+                        </div>
                     </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/the-lighting/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1.jpg" class="attachment-full size-full wp-post-image" alt="masonry1" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry1-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/the-lighting/">The Lighting</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/masonry/" rel="tag">Masonry</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/the-magazine-2/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6.jpg" class="attachment-full size-full wp-post-image" alt="masonry6" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry6-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/the-magazine-2/">The Magazine</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/trademark/" rel="tag">Trademark</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/the-magazine/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9.jpg" class="attachment-full size-full wp-post-image" alt="masonry9" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry9-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/the-magazine/">Portland Empire</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/masonry/" rel="tag">Masonry</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/high-building/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3.jpg" class="attachment-full size-full wp-post-image" alt="masonry3" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry3-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/high-building/">High Building</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/trademark/" rel="tag">Trademark</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/curve-building/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2.jpg" class="attachment-full size-full wp-post-image" alt="masonry2" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry2-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/curve-building/">Curve Building</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/masonry/" rel="tag">Masonry</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/secret-boxes/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7.jpg" class="attachment-full size-full wp-post-image" alt="masonry7" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry7-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/secret-boxes/">Secret Boxes</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/trademark/" rel="tag">Trademark</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/photo-exhibition-2/"><img width="1200" height="1200" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4.jpg" class="attachment-full size-full wp-post-image" alt="masonry4" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4-300x300.jpg 300w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4-600x600.jpg 600w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4-768x768.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry4-100x100.jpg 100w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/photo-exhibition-2/">Photo Exhibition</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/masonry/" rel="tag">Masonry</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                        <div class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
-                        <div class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
-                            <div class="item-featured">                                    <a href="https://demo.farost.net/molli/portfolio/hashtag-0727/"><img width="1200" height="600" src="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry10.jpg" class="attachment-full size-full wp-post-image" alt="masonry10" srcset="https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry10.jpg 1200w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry10-768x384.jpg 768w, https://demo.farost.net/molli/wp-content/uploads/2019/06/pfl_masonry10-600x300.jpg 600w" sizes="(max-width: 1200px) 100vw, 1200px" /></a>
-                                    <div class="item-holder">
-                                        <div class="item-holder-inner">
-                                            <h5 class="font-smooth">
-                                                <a href="https://demo.farost.net/molli/portfolio/hashtag-0727/">Hashtag 0727</a>
-                                            </h5>
-                                                                                            <div class="cat">
-                                                    <a href="https://demo.farost.net/molli/portfolio-category/boutique/" rel="tag">Boutique</a>                                                </div>
-                                                                                    </div>
-                                    </div>
-                                </div>                        </div>
-                    </div>
-                                <div class="grid-sizer col-lg-3 col-md-6 col-sm-6 col-12"></div>
+                </div>
+            </div>
         </div>
-    </div>
-<div class="cms-inline-css" style="display:none" data-css="#cms-portfolio-grid .cms-grid-inner {
+        <div id="content" class="site-content">
+            <div class="content-inner">
+                <div class="container content-container">
+                    <div class="row content-row">
+                        <div id="primary" class="content-area content-full-width col-12">
+                            <main id="main" class="site-main">
+
+                                <article id="post-1323" class="post-1323 page type-page status-publish hentry">
+                                    <div class="entry-content clearfix">
+                                        <div data-vc-full-width="true" data-vc-full-width-init="false"
+                                            data-vc-stretch-content="true"
+                                            class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner">
+                                                    <div class="wpb_wrapper">
+                                                        <div id="cms-portfolio-grid"
+                                                            class="cms-grid cms-portfolio-grid grid-masonry ">
+
+                                                            <div class="cms-grid-inner cms-grid-masonry row animation-time"
+                                                                data-gutter="0">
+                                                                <div
+                                                                    class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/overcrossing_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="waste_to_energy"
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="/pages/">Overcrossing</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a rel="tag">Architecture Design</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/the-lighting/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/from_lake_to_sky_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry1"
+                                                                                
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/the-lighting/">Stream to Sky</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/masonry/"
+                                                                                            rel="tag">Urban Design</a> </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/the-magazine-2/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/flowing_refugium_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry6"
+                                                                                
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/the-magazine-2/">Flowing Refugium</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/trademark/"
+                                                                                            rel="tag">Architecture Design</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/the-magazine/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/la_marqueta_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry9"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/the-magazine/">La Marqueta</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/masonry/"
+                                                                                            rel="tag">Urban Design</a> </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/high-building/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/sewing_timber_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry3"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/high-building/"></a>Sewing Timber
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/trademark/"
+                                                                                            rel="tag">Digital Fabrication</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/curve-building/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/manhattan_mobility_analysis.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry2"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/curve-building/">Manhattan Mobility</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/masonry/"
+                                                                                            rel="tag">Urban Research</a> </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-3 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/secret-boxes/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/urban_renovation_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry7"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/secret-boxes/">Montage of Riverfront</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/trademark/"
+                                                                                            rel="tag">Urban Design</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/photo-exhibition-2/"><img
+                                                                                    width="1200" height="1200"
+                                                                                    src="assets/img/buffalo_on_flickr_01.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry4"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/photo-exhibition-2/">Buffalo on Social Media</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/masonry/"
+                                                                                            rel="tag">Urban Research</a> </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-item col-lg-6 col-md-6 col-sm-6 col-12 ">
+                                                                    <div
+                                                                        class="grid-item-inner wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+                                                                        <div class="item-featured"> <a
+                                                                                href="https://demo.farost.net/molli/portfolio/hashtag-0727/"><img
+                                                                                    width="1200" height="600"
+                                                                                    src="assets/img/waste_to_energy_01_1.jpg"
+                                                                                    class="attachment-full size-full wp-post-image"
+                                                                                    alt="masonry10"
+                                                                                    
+                                                                                    sizes="(max-width: 1200px) 100vw, 1200px" /></a>
+                                                                            <div class="item-holder">
+                                                                                <div class="item-holder-inner">
+                                                                                    <h5 class="font-smooth">
+                                                                                        <a
+                                                                                            href="https://demo.farost.net/molli/portfolio/hashtag-0727/">Waste to Energy</a>
+                                                                                    </h5>
+                                                                                    <div class="cat">
+                                                                                        <a href="https://demo.farost.net/molli/portfolio-category/boutique/"
+                                                                                            rel="tag">Infrastructure Design</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="grid-sizer col-lg-3 col-md-6 col-sm-6 col-12">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cms-inline-css" style="display:none" data-css="#cms-portfolio-grid .cms-grid-inner {
     margin: 0 -0px;
     }
 #cms-portfolio-grid .cms-grid-inner .grid-item, #cms-portfolio-grid .cms-grid-inner .grid-sizer {
     padding:0px !important;
     }
-"></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
-    </div><!-- .entry-content -->
-
-    </article><!-- #post-1323 -->
-                </main><!-- #main -->
-            </div><!-- #primary page.php-->
-            
-        </div>
-    </div>
-</div><!-- #content inner -->
-</div><!-- #content -->
-
-    <div class="cms-modal cms-modal-search-form ">
-        <div class="cms-close-search">
-            <i class="zmdi zmdi-close"></i>
-        </div>
-            <div class="cms-modal-inner">
-             <div class="cms-modal-content">
-                <form role="search" method="get" class="cms-search-form placeholder-white font-smooth" action="https://demo.farost.net/molli/">
-                    <button type="submit" class="search-submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                    <input type="text" id="searchFocus" placeholder="Type Words Then Enter" name="s" class="search-field" />
-                </form>
-            </div>
-        </div>
-    </div>
-<footer id="colophon" class="site-footer footer-layout1 ft-main-r">
-    <div class="bg-overlay">
-                    <div class="top-footer ">
-                <div class="container">
-                    <div class="row">
-                        <div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12"><section id="media_image-2" class="widget widget_media_image"><a href="https://demo.farost.net/molli"><img width="93" height="40" src="https://demo.farost.net/molli/wp-content/uploads/2019/05/logo-light.png" class="image wp-image-181  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" /></a></section></div><div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">        <div class="cms-contact-info-layout3 content-box widget">
-                        <div class="cms-contact-info-inner">
-                                    <div class="cms-contact-info-item type-email">
-                        <div class="cms-contact-info-holder">
-                            <span>Email Us: </span>                            <a href="mailto:Molli@farost.com">
-                                Molli@farost.com                            </a>
-                        </div>
-                    </div>
-                                                    <div class="cms-contact-info-item type-phone">
-                        <div class="cms-contact-info-holder">
-                            <span>Call Us: </span>                            <a href="tel:00201066165701">002 01066165701</a>
-                        </div>
-                    </div>
-                                                            </div>
-        </div>
-        </div><div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">        <div class="cms-contact-info-layout3 content-box widget">
-                        <div class="cms-contact-info-inner">
-                                                                    <div class="cms-contact-info-item type-address">
-                        <div class="cms-contact-info-holder">
-                                                        <a href="https://maps.google.com/?q=23AlBahrStreet,TantaCity,AlGharbia,Egypt." target="_blank">
-                                23 AlBahr Street, Tanta City, AlGharbia, Egypt.                            </a>
-                        </div>
-                    </div>
+"></div>
+                                                    </div>
+                                                </div>
                                             </div>
-        </div>
-        </div><div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12"><section id="cs_social_widget-2" class="widget widget_cs_social_widget"><ul class='cms-social-media'><li><a target="_blank" title="Facebook" href="#"><i class="zmdi zmdi-facebook"></i><span>Facebook</span></a></li><li><a target="_blank" title="Instagram" href="#"><i class="zmdi zmdi-instagram"></i><span>Instagram</span></a></li><li><a target="_blank" title="Twitter" href="#"><i class="zmdi zmdi-twitter"></i><span>Twitter</span></a></li></ul></section></div>                    </div>
+                                        </div>
+                                        <div class="vc_row-full-width vc_clearfix"></div>
+                                    </div><!-- .entry-content -->
+
+                                </article><!-- #post-1323 -->
+                            </main><!-- #main -->
+                        </div><!-- #primary page.php-->
+
+                    </div>
+                </div>
+            </div><!-- #content inner -->
+        </div><!-- #content -->
+
+        <div class="cms-modal cms-modal-search-form ">
+            <div class="cms-close-search">
+                <i class="zmdi zmdi-close"></i>
+            </div>
+            <div class="cms-modal-inner">
+                <div class="cms-modal-content">
+                    <form role="search" method="get" class="cms-search-form placeholder-white font-smooth"
+                        action="https://demo.farost.net/molli/">
+                        <button type="submit" class="search-submit"><i class="fa fa-search"
+                                aria-hidden="true"></i></button>
+                        <input type="text" id="searchFocus" placeholder="Type Words Then Enter" name="s"
+                            class="search-field" />
+                    </form>
                 </div>
             </div>
-            
-    </div>
-    	    <a href="#" class="scroll-top fixed-bottom"><i class="zmdi zmdi-chevron-up"></i></a>
-	
-</footer>    <a href="#" class="scroll-top default"><i class="zmdi zmdi-long-arrow-up"></i></a>
+        </div>
+        <footer id="colophon" class="site-footer footer-layout1 ft-main-r">
+            <div class="bg-overlay">
+                <div class="top-footer ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                <section id="media_image-2" class="widget widget_media_image"><a
+                                        href="https://demo.farost.net/molli"><img width="50" height="20"
+                                            src="assets/img/logo_light.png"
+                                            class="image wp-image-181  attachment-full size-full" alt=""
+                                            style="max-width: 30%; height: auto;" /></a></section>
+                            </div>
+                            <div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                <div class="cms-contact-info-layout3 content-box widget">
+                                    <div class="cms-contact-info-inner">
+                                        <div class="cms-contact-info-item type-email">
+                                            <div class="cms-contact-info-holder">
+                                                <span>Email: </span> <a href="mailto:yy848@cornell.edu">
+                                                    yy848@cornell.edu </a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cms-footer-item col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                                <div class="cms-contact-info-layout3 content-box widget">
+                                    <div class="cms-contact-info-inner">
+                                        <div class="cms-contact-info-item type-address">
+                                            <div class="cms-contact-info-holder">
+                                                <a href="https://maps.google.com/?q=23AlBahrStreet,TantaCity,AlGharbia,Egypt."
+                                                    target="_blank">
+                                                    240B Sibley Hall, Cornell University  </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-</div><!-- #page -->
-<style>.lazy-hidden{background:0 0;opacity:0}.lazy-loaded{-webkit-transition:opacity .8s;-moz-transition:opacity .8s;-ms-transition:opacity .8s;-o-transition:opacity .8s;transition:opacity .8s;opacity:1}</style>	<script type="text/javascript">
-		var c = document.body.className;
-		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-		document.body.className = c;
-	</script>
-	<link rel='stylesheet' id='vc_animate-css-css'  href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css'  media='all' />
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/demo.farost.net\/molli\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="scroll-top fixed-bottom"><i class="zmdi zmdi-chevron-up"></i></a>
+
+        </footer> <a href="#" class="scroll-top default"><i class="zmdi zmdi-long-arrow-up"></i></a>
+
+    </div><!-- #page -->
+    <style>
+        .lazy-hidden {
+            background: 0 0;
+            opacity: 0
+        }
+
+        .lazy-loaded {
+            -webkit-transition: opacity .8s;
+            -moz-transition: opacity .8s;
+            -ms-transition: opacity .8s;
+            -o-transition: opacity .8s;
+            transition: opacity .8s;
+            opacity: 1
+        }
+    </style>
+    <script type="text/javascript">
+        var c = document.body.className;
+        c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+        document.body.className = c;
+    </script>
+    <link rel='stylesheet' id='vc_animate-css-css'
+        href='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css'
+        media='all' />
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wpcf7 = { "apiSettings": { "root": "https:\/\/demo.farost.net\/molli\/wp-json\/contact-form-7\/v1", "namespace": "contact-form-7\/v1" } };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/sg-cachepress/assets/js/lazy-load-images.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/js/cms-front.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/molli\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/molli\/?wc-ajax=%%endpoint%%"};
+    </script>
+    <script src='https://demo.farost.net/molli/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/plugins/sg-cachepress/assets/js/lazy-load-images.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/plugins/themecore/assets/js/cms-front.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var woocommerce_params = { "ajax_url": "\/molli\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/molli\/?wc-ajax=%%endpoint%%" };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wc_cart_fragments_params = {"ajax_url":"\/molli\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/molli\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_e635022153dd3aa187e693056e2e4af2","fragment_name":"wc_fragments_e635022153dd3aa187e693056e2e4af2","request_timeout":"5000"};
+    </script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var wc_cart_fragments_params = { "ajax_url": "\/molli\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/molli\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_e635022153dd3aa187e693056e2e4af2", "fragment_name": "wc_fragments_e635022153dd3aa187e693056e2e4af2", "request_timeout": "5000" };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/headroom.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/headroom.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/bootstrap.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/nice-select.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/enscroll.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/match-height-min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/magnific-popup.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/paroller.min.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var main_data = {"ajax_url":"https:\/\/demo.farost.net\/molli\/wp-admin\/admin-ajax.php"};
+    </script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/headroom.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/headroom.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/bootstrap.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/nice-select.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/enscroll.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/match-height-min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/magnific-popup.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/paroller.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var main_data = { "ajax_url": "https:\/\/demo.farost.net\/molli\/wp-admin\/admin-ajax.php" };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/main.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/YouTubePopUp.jquery.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var newsletter = {"messages":{"email_error":"Email address is not correct","name_error":"Name is required","surname_error":"Last name is required","profile_error":"","privacy_error":"You must accept the privacy policy"},"profile_max":"20"};
+    </script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/main.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/YouTubePopUp.jquery.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var newsletter = { "messages": { "email_error": "Email address is not correct", "name_error": "Name is required", "surname_error": "Last name is required", "profile_error": "", "privacy_error": "You must accept the privacy policy" }, "profile_max": "20" };
 /* ]]> */
-</script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/newsletter/subscription/validate.js'></script>
-<script  src='https://demo.farost.net/molli/wp-includes/js/wp-embed.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-includes/js/imagesloaded.min.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/isotope.cms.js'></script>
-<script  src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js'></script>
+    </script>
+    <script src='https://demo.farost.net/molli/wp-content/plugins/newsletter/subscription/validate.js'></script>
+    <script src='https://demo.farost.net/molli/wp-includes/js/wp-embed.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-includes/js/imagesloaded.min.js'></script>
+    <script src='https://demo.farost.net/molli/wp-content/themes/molli/assets/js/isotope.cms.js'></script>
+    <script
+        src='https://demo.farost.net/molli/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js'></script>
 </body>
+
 </html>
