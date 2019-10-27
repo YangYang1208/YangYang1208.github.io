@@ -1,0 +1,79 @@
+ADOBE INDESIGN PRINTING INSTRUCTIONS FOR SERVICE PROVIDER REPORT
+
+PUBLICATION NAME: website.indd
+
+PACKAGE DATE: 10/27/2019 12:06 AM
+Creation Date: 10/27/2019
+Modification Date: 10/27/2019
+
+CONTACT INFORMATION
+
+Company Name: 
+Contact: 
+Address: 
+
+
+
+
+
+Phone: 
+Fax: 
+Email: 
+
+SPECIAL INSTRUCTIONS AND OTHER NOTES
+
+
+
+
+
+
+External Plug-ins 0
+Non Opaque Objects :None
+
+FONTS
+0 Fonts Used; 0 Missing, 0 Embedded, 0 Incomplete, 0 Protected
+
+COLORS AND INKS
+4 Process Inks; 0 Spot Inks
+
+- Name and Type: Process Cyan; Angle: 71.565; Lines/Inch: 63.245
+- Name and Type: Process Magenta; Angle: 18.434; Lines/Inch: 63.245
+- Name and Type: Process Yellow; Angle: 0.000; Lines/Inch: 66.666
+- Name and Type: Process Black; Angle: 45.000; Lines/Inch: 70.710
+
+
+LINKS AND IMAGES
+(Missing & Embedded Links Only)
+Links and Images: 9 Links Found; 0 Modified, 0 Missing 0 Inaccessible
+Images: 0 Embedded, 9 use RGB color space
+
+
+PRINT SETTINGS
+PPD: Adobe PDF, (Adobe PDF)
+Printing To: Printer
+Number of Copies: 1
+Reader Spreads: No
+Even/Odd Pages: Both
+Pages: All
+Proof: No
+Tiling: None
+Scale: 100%, 100%
+Page Position: Upper Left
+Print Layers: Visible & Printable Layers
+Printer's Marks: None
+Bleed: 0p0, 0p0, 0p0, 0p0
+Color: Composite CMYK
+Trapping Mode: None
+Send Image Data: Optimized Subsampling
+OPI/DCS Image Replacement: No
+Page Size: Custom: 60p0 x 60p0
+Paper Dimensions: 51p0 x 66p0
+Orientation: Portrait
+Negative: No
+Flip Mode: Off
+
+
+FILE PACKAGE LIST
+
+1. website.indd; type: Adobe InDesign publication; size: 30860K
+2. website.idml; type: InDesign Markup Document; size: 10196K
