@@ -1,0 +1,142 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+#multiscroll-nav {
+    position: fixed;
+    z-index: 100;
+    margin-top: -32px;
+    top: 50%;
+    opacity: 1;
+}
+#multiscroll-nav.right {
+    right: 27px;
+}
+#multiscroll-nav.left {
+    left: 27px;
+}
+#multiscroll-nav ul {
+    margin: 0;
+    padding: 0;
+}
+#multiscroll-nav li {
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin: 0 0 30px;
+    position: relative;
+}
+#multiscroll-nav li:last-child {
+    margin-bottom: 0;
+}
+#multiscroll-nav li a {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#multiscroll-nav li .active span {
+    background: #222;
+    border: 1px solid #222;
+}
+#multiscroll-nav span {
+    top: 0px;
+    left: 0px;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #909090;
+    background: #909090;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.multiscroll-tooltip {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: arial, helvetica, sans-serif;
+    top: -2px;
+    white-space: nowrap;
+    max-width: 220px;
+}
+.multiscroll-tooltip.right {
+    right: 20px;
+}
+.multiscroll-tooltip.left {
+    left: 20px;
+}
+
+#CSHMSMultiScroll{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ms-section {
+    position: relative;
+}
+
+.ms-tableCell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 992px) {
+    html, body {
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    #CSHMSMultiScroll {
+        height: calc(100vh - 200px);
+        overflow: hidden !important;
+        position: relative;
+    }
+    .admin-bar #CSHMSMultiScroll{
+        height: calc(100vh - 232px);
+    }
+    .ms-section.ms-table {
+        width: 100%;
+    }
+    .ms-easing {
+        -webkit-transition: all 0.5s ease-out;
+        -moz-transition: all 0.5s ease-out;
+        -o-transition: all 0.5s ease-out;
+        transition: all 0.5s ease-out;
+    }
+    .ms-left, .ms-right{
+        width: 50%;
+        position: relative; /*don't remove*/
+    }
+    .ms-tableCell {
+        height: calc(100vh - 200px) !important;
+    }
+    .admin-bar .ms-tableCell{
+        height: calc(100vh - 232px) !important;
+    }
+}
+@media (max-width: 991px) {
+    body[class*="ms-viewing-"] {
+        overflow: inherit !important;
+        height: inherit !important;
+    }
+    body[class*="ms-viewing-"] #CSHMSMultiScroll .ms-left, body[class*="ms-viewing-"] #CSHMSMultiScroll .ms-right {
+        position: inherit !important;
+        left: auto;
+        top: auto;
+        width: 100%;
+    }
+    .ms-section {
+        height: 60vw !important;
+    }
+}
+.cshms-row{
+    overflow: hidden;
+}
